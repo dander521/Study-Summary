@@ -8,3 +8,7 @@ The basic animation of UIView, Position, Opacity, Scale, Color, Rotation
 # UIViewAnimationAdvanced
 2016-3-20
 The advanced animation of UIView, Repeat, Ease, Spring
+
+# LoginAnimaton
+2016-3-21
+Using animation to make a login view
