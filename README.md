@@ -3,4 +3,4 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 
 ## UIViewAnimation
 2016-3-20
-The basci animate of UIView, Position, Opacity, Scale, Color, Rotation
+The basic animation of UIView, Position, Opacity, Scale, Color, Rotation
