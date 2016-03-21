@@ -18,5 +18,5 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * Using animation to make a login view
 
 ### 3.NewLoginAnimaton
-* 2016-3-21
+* 2016-3-22
 * Using animation to make a login view
