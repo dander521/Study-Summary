@@ -24,3 +24,5 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 ### 3.WeatherTransform
 * 2016-3-24
 * A flight weather summary 
+* 2016-3-26
+* add plane and summary keyframe animation
