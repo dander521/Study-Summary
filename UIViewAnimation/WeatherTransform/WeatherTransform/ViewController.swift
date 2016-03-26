@@ -187,7 +187,6 @@ class ViewController: UIViewController {
             }, completion: {_ in
                 label.text = auxLabel.text
                 label.transform = CGAffineTransformIdentity
-                
                 auxLabel.removeFromSuperview()
         })
         
