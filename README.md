@@ -17,11 +17,11 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-3-21
 * Using animation to make a login view
 
-### 3.NewLoginAnimaton
+### 4.NewLoginAnimaton
 * 2016-3-22
 * Using animation to make a login view
 
-### 3.WeatherTransform
+### 5.WeatherTransform
 * 2016-3-24
 * A flight weather summary 
 * 2016-3-26
