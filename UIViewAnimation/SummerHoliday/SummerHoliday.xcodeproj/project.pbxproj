@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42C5DD51CA985BB0089E216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C5DD41CA985BB0089E216 /* AppDelegate.swift */; };
+		D42C5DD71CA985BB0089E216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C5DD61CA985BB0089E216 /* ViewController.swift */; };
+		D42C5DDA1CA985BB0089E216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C5DD81CA985BB0089E216 /* Main.storyboard */; };
+		D42C5DDC1CA985BB0089E216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42C5DDB1CA985BB0089E216 /* Assets.xcassets */; };
+		D42C5DDF1CA985BB0089E216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C5DDD1CA985BB0089E216 /* LaunchScreen.storyboard */; };
+		D42C5DEA1CA985BB0089E216 /* SummerHolidayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C5DE91CA985BB0089E216 /* SummerHolidayTests.swift */; };
+		D42C5DF51CA985BB0089E216 /* SummerHolidayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C5DF41CA985BB0089E216 /* SummerHolidayUITests.swift */; };
+		D42C5E031CA985F40089E216 /* HorizontalItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C5E021CA985F40089E216 /* HorizontalItemList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D42C5DE61CA985BB0089E216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42C5DC91CA985BB0089E216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42C5DD01CA985BB0089E216;
+			remoteInfo = SummerHoliday;
+		};
+		D42C5DF11CA985BB0089E216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42C5DC91CA985BB0089E216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42C5DD01CA985BB0089E216;
+			remoteInfo = SummerHoliday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D42C5DD11CA985BB0089E216 /* SummerHoliday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerHoliday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42C5DD41CA985BB0089E216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D42C5DD61CA985BB0089E216 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D42C5DD91CA985BB0089E216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D42C5DDB1CA985BB0089E216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D42C5DDE1CA985BB0089E216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D42C5DE01CA985BB0089E216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42C5DE51CA985BB0089E216 /* SummerHolidayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerHolidayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42C5DE91CA985BB0089E216 /* SummerHolidayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidayTests.swift; sourceTree = "<group>"; };
+		D42C5DEB1CA985BB0089E216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42C5DF01CA985BB0089E216 /* SummerHolidayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerHolidayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42C5DF41CA985BB0089E216 /* SummerHolidayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidayUITests.swift; sourceTree = "<group>"; };
+		D42C5DF61CA985BB0089E216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42C5E021CA985F40089E216 /* HorizontalItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalItemList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42C5DCE1CA985BB0089E216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DE21CA985BB0089E216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DED1CA985BB0089E216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42C5DC81CA985BB0089E216 = {
+			isa = PBXGroup;
+			children = (
+				D42C5DD31CA985BB0089E216 /* SummerHoliday */,
+				D42C5DE81CA985BB0089E216 /* SummerHolidayTests */,
+				D42C5DF31CA985BB0089E216 /* SummerHolidayUITests */,
+				D42C5DD21CA985BB0089E216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42C5DD21CA985BB0089E216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5DD11CA985BB0089E216 /* SummerHoliday.app */,
+				D42C5DE51CA985BB0089E216 /* SummerHolidayTests.xctest */,
+				D42C5DF01CA985BB0089E216 /* SummerHolidayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42C5DD31CA985BB0089E216 /* SummerHoliday */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5E021CA985F40089E216 /* HorizontalItemList.swift */,
+				D42C5DD41CA985BB0089E216 /* AppDelegate.swift */,
+				D42C5DD61CA985BB0089E216 /* ViewController.swift */,
+				D42C5DD81CA985BB0089E216 /* Main.storyboard */,
+				D42C5DDB1CA985BB0089E216 /* Assets.xcassets */,
+				D42C5DDD1CA985BB0089E216 /* LaunchScreen.storyboard */,
+				D42C5DE01CA985BB0089E216 /* Info.plist */,
+			);
+			path = SummerHoliday;
+			sourceTree = "<group>";
+		};
+		D42C5DE81CA985BB0089E216 /* SummerHolidayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5DE91CA985BB0089E216 /* SummerHolidayTests.swift */,
+				D42C5DEB1CA985BB0089E216 /* Info.plist */,
+			);
+			path = SummerHolidayTests;
+			sourceTree = "<group>";
+		};
+		D42C5DF31CA985BB0089E216 /* SummerHolidayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5DF41CA985BB0089E216 /* SummerHolidayUITests.swift */,
+				D42C5DF61CA985BB0089E216 /* Info.plist */,
+			);
+			path = SummerHolidayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42C5DD01CA985BB0089E216 /* SummerHoliday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42C5DF91CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHoliday" */;
+			buildPhases = (
+				D42C5DCD1CA985BB0089E216 /* Sources */,
+				D42C5DCE1CA985BB0089E216 /* Frameworks */,
+				D42C5DCF1CA985BB0089E216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerHoliday;
+			productName = SummerHoliday;
+			productReference = D42C5DD11CA985BB0089E216 /* SummerHoliday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D42C5DE41CA985BB0089E216 /* SummerHolidayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42C5DFC1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayTests" */;
+			buildPhases = (
+				D42C5DE11CA985BB0089E216 /* Sources */,
+				D42C5DE21CA985BB0089E216 /* Frameworks */,
+				D42C5DE31CA985BB0089E216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D42C5DE71CA985BB0089E216 /* PBXTargetDependency */,
+			);
+			name = SummerHolidayTests;
+			productName = SummerHolidayTests;
+			productReference = D42C5DE51CA985BB0089E216 /* SummerHolidayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D42C5DEF1CA985BB0089E216 /* SummerHolidayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42C5DFF1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayUITests" */;
+			buildPhases = (
+				D42C5DEC1CA985BB0089E216 /* Sources */,
+				D42C5DED1CA985BB0089E216 /* Frameworks */,
+				D42C5DEE1CA985BB0089E216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D42C5DF21CA985BB0089E216 /* PBXTargetDependency */,
+			);
+			name = SummerHolidayUITests;
+			productName = SummerHolidayUITests;
+			productReference = D42C5DF01CA985BB0089E216 /* SummerHolidayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42C5DC91CA985BB0089E216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RogerChen;
+				TargetAttributes = {
+					D42C5DD01CA985BB0089E216 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D42C5DE41CA985BB0089E216 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D42C5DD01CA985BB0089E216;
+					};
+					D42C5DEF1CA985BB0089E216 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D42C5DD01CA985BB0089E216;
+					};
+				};
+			};
+			buildConfigurationList = D42C5DCC1CA985BB0089E216 /* Build configuration list for PBXProject "SummerHoliday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D42C5DC81CA985BB0089E216;
+			productRefGroup = D42C5DD21CA985BB0089E216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42C5DD01CA985BB0089E216 /* SummerHoliday */,
+				D42C5DE41CA985BB0089E216 /* SummerHolidayTests */,
+				D42C5DEF1CA985BB0089E216 /* SummerHolidayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42C5DCF1CA985BB0089E216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C5DDF1CA985BB0089E216 /* LaunchScreen.storyboard in Resources */,
+				D42C5DDC1CA985BB0089E216 /* Assets.xcassets in Resources */,
+				D42C5DDA1CA985BB0089E216 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DE31CA985BB0089E216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DEE1CA985BB0089E216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42C5DCD1CA985BB0089E216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C5E031CA985F40089E216 /* HorizontalItemList.swift in Sources */,
+				D42C5DD71CA985BB0089E216 /* ViewController.swift in Sources */,
+				D42C5DD51CA985BB0089E216 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DE11CA985BB0089E216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C5DEA1CA985BB0089E216 /* SummerHolidayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42C5DEC1CA985BB0089E216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C5DF51CA985BB0089E216 /* SummerHolidayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D42C5DE71CA985BB0089E216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D42C5DD01CA985BB0089E216 /* SummerHoliday */;
+			targetProxy = D42C5DE61CA985BB0089E216 /* PBXContainerItemProxy */;
+		};
+		D42C5DF21CA985BB0089E216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D42C5DD01CA985BB0089E216 /* SummerHoliday */;
+			targetProxy = D42C5DF11CA985BB0089E216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D42C5DD81CA985BB0089E216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42C5DD91CA985BB0089E216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D42C5DDD1CA985BB0089E216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42C5DDE1CA985BB0089E216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42C5DF71CA985BB0089E216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D42C5DF81CA985BB0089E216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42C5DFA1CA985BB0089E216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerHoliday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42C5DFB1CA985BB0089E216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerHoliday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D42C5DFD1CA985BB0089E216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerHolidayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHolidayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerHoliday.app/SummerHoliday";
+			};
+			name = Debug;
+		};
+		D42C5DFE1CA985BB0089E216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerHolidayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHolidayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerHoliday.app/SummerHoliday";
+			};
+			name = Release;
+		};
+		D42C5E001CA985BB0089E216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SummerHolidayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHolidayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SummerHoliday;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D42C5E011CA985BB0089E216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SummerHolidayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.SummerHolidayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SummerHoliday;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42C5DCC1CA985BB0089E216 /* Build configuration list for PBXProject "SummerHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42C5DF71CA985BB0089E216 /* Debug */,
+				D42C5DF81CA985BB0089E216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42C5DF91CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42C5DFA1CA985BB0089E216 /* Debug */,
+				D42C5DFB1CA985BB0089E216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D42C5DFC1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42C5DFD1CA985BB0089E216 /* Debug */,
+				D42C5DFE1CA985BB0089E216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D42C5DFF1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42C5E001CA985BB0089E216 /* Debug */,
+				D42C5E011CA985BB0089E216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42C5DC91CA985BB0089E216 /* Project object */;
+}
