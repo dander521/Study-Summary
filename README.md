@@ -23,10 +23,6 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 
 ### 5.WeatherTransform
 * 2016-3-24
-* A flight weather summary 
-
-### 6. SummerHoliday
-* 2016-3-29
-* Summer Holiday packetList-------complete packet horizontal list 
-* 2016-3-29
-* Summer Holiday packetList-------complete choosing tools
+* A flight weather summary
+* 2016-3-26
+* add plane and summary keyframe animation
