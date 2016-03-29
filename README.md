@@ -30,3 +30,4 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 ### 6.SummerHoliday
 * 2016-3-29
 * Using Layout to make animating
+* complte choosing tools for entertainment
