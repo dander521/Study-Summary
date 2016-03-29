@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var titleViewContraintHeight: NSLayoutConstraint!
     
-    // MARK: further class variables
+    // MARK: further class variables.
     
     var slider: HorizontalItemList!
     var isMenuOpen = false
