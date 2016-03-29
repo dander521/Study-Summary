@@ -26,3 +26,7 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * A flight weather summary
 * 2016-3-26
 * add plane and summary keyframe animation
+
+### 6.SummerHoliday
+* 2016-3-29
+* Using Layout to make animating
