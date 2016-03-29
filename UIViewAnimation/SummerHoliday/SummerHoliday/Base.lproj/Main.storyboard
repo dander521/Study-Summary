@@ -62,7 +62,6 @@
                                         <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="242" id="e2V-T1-RVb"/>
-                                            <constraint firstAttribute="height" constant="36" id="wUW-RN-L5M"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -75,6 +74,7 @@
                                     <constraint firstAttribute="height" constant="60" id="S8R-9c-8lW"/>
                                     <constraint firstAttribute="trailing" secondItem="Fdt-41-Xof" secondAttribute="trailing" constant="8" id="cDu-fz-4ac"/>
                                     <constraint firstItem="80s-KY-JQI" firstAttribute="top" secondItem="tmb-xs-TKN" secondAttribute="top" constant="9" id="jUj-mN-m3t"/>
+                                    <constraint firstItem="80s-KY-JQI" firstAttribute="centerY" secondItem="tmb-xs-TKN" secondAttribute="centerY" constant="-3" identifier="TitleCenterY" id="qFa-ri-0SP"/>
                                     <constraint firstItem="Fdt-41-Xof" firstAttribute="centerY" secondItem="tmb-xs-TKN" secondAttribute="centerY" id="ybA-Bw-Uej"/>
                                     <constraint firstItem="80s-KY-JQI" firstAttribute="centerX" secondItem="tmb-xs-TKN" secondAttribute="centerX" id="ypy-Cw-GRB"/>
                                 </constraints>
