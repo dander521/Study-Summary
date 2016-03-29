@@ -38,7 +38,7 @@ class HorizontalItemList: UIScrollView {
             imageView.userInteractionEnabled = true
             addSubview(imageView)
             
-            let tap = UITapGestureRecognizer(target: self, action: "didTapImage")
+            let tap = UITapGestureRecognizer(target: self, action: "didTapImage:")
             imageView.addGestureRecognizer(tap)
         }
         

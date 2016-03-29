@@ -76,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D41538E61CA993E2009FBE6D /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5DDB1CA985BB0089E216 /* Assets.xcassets */,
+				D42C5DDD1CA985BB0089E216 /* LaunchScreen.storyboard */,
+				D42C5DE01CA985BB0089E216 /* Info.plist */,
+				D42C5DD41CA985BB0089E216 /* AppDelegate.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
 		D42C5DC81CA985BB0089E216 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				D42C5E021CA985F40089E216 /* HorizontalItemList.swift */,
-				D42C5DD41CA985BB0089E216 /* AppDelegate.swift */,
 				D42C5DD61CA985BB0089E216 /* ViewController.swift */,
 				D42C5DD81CA985BB0089E216 /* Main.storyboard */,
-				D42C5DDB1CA985BB0089E216 /* Assets.xcassets */,
-				D42C5DDD1CA985BB0089E216 /* LaunchScreen.storyboard */,
-				D42C5DE01CA985BB0089E216 /* Info.plist */,
+				D41538E61CA993E2009FBE6D /* SupportFiles */,
 			);
 			path = SummerHoliday;
 			sourceTree = "<group>";
@@ -488,6 +496,7 @@
 				D42C5DFB1CA985BB0089E216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42C5DFC1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				D42C5DFE1CA985BB0089E216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42C5DFF1CA985BB0089E216 /* Build configuration list for PBXNativeTarget "SummerHolidayUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				D42C5E011CA985BB0089E216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
