@@ -31,3 +31,7 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-3-29
 * Using Layout to make animating
 * complte choosing tools for entertainment
+
+### 7.LayerAnimationWithLogin
+* 2016-4-3
+* Layer animation 
