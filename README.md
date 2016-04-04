@@ -39,3 +39,7 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 ### 8.SearchOpponent
 * 2016-4-4
 * Layer animation and morphSize
+
+### 8.SlideToReveal
+* 2016-4-4
+* CAGradientLayer excesize
