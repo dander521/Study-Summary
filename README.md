@@ -40,10 +40,10 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-4
 * Layer animation and morphSize
 
-### 8.SlideToReveal
+### 9.SlideToReveal
 * 2016-4-4
 * CAGradientLayer excesize
 
-### 9.RefreshPlane
+### 10.RefreshPlane
 * 2016-4-4
 * RefreshPlane animation to refresh data
