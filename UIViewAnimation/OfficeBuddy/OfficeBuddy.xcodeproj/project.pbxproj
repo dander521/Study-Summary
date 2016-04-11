@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB769881CBB7A4A00DB3588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB769871CBB7A4A00DB3588 /* AppDelegate.swift */; };
+		FDB7698D1CBB7A4A00DB3588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB7698B1CBB7A4A00DB3588 /* Main.storyboard */; };
+		FDB7698F1CBB7A4A00DB3588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB7698E1CBB7A4A00DB3588 /* Assets.xcassets */; };
+		FDB769921CBB7A4A00DB3588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB769901CBB7A4A00DB3588 /* LaunchScreen.storyboard */; };
+		FDB7699C1CBB7ACD00DB3588 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7699B1CBB7ACD00DB3588 /* ContainerViewController.swift */; };
+		FDB7699E1CBB885F00DB3588 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7699D1CBB885F00DB3588 /* MenuButton.swift */; };
+		FDB769A01CBB8BEC00DB3588 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7699F1CBB8BEC00DB3588 /* MenuItem.swift */; };
+		FDB769A21CBB8E8200DB3588 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB769A11CBB8E8200DB3588 /* SideMenuViewController.swift */; };
+		FDB769A41CBB8F8900DB3588 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB769A31CBB8F8900DB3588 /* CenterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDB769841CBB7A4A00DB3588 /* OfficeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB769871CBB7A4A00DB3588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB7698C1CBB7A4A00DB3588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB7698E1CBB7A4A00DB3588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB769911CBB7A4A00DB3588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB769931CBB7A4A00DB3588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB7699B1CBB7ACD00DB3588 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		FDB7699D1CBB885F00DB3588 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		FDB7699F1CBB8BEC00DB3588 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FDB769A11CBB8E8200DB3588 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		FDB769A31CBB8F8900DB3588 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB769811CBB7A4A00DB3588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB7697B1CBB7A4A00DB3588 = {
+			isa = PBXGroup;
+			children = (
+				FDB769861CBB7A4A00DB3588 /* OfficeBuddy */,
+				FDB769851CBB7A4A00DB3588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB769851CBB7A4A00DB3588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB769841CBB7A4A00DB3588 /* OfficeBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB769861CBB7A4A00DB3588 /* OfficeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FDB769991CBB7A8C00DB3588 /* CenterViewController */,
+				FDB7699A1CBB7A9C00DB3588 /* SideMenuViewController */,
+				FDB7699B1CBB7ACD00DB3588 /* ContainerViewController.swift */,
+				FDB769871CBB7A4A00DB3588 /* AppDelegate.swift */,
+				FDB7698B1CBB7A4A00DB3588 /* Main.storyboard */,
+				FDB7698E1CBB7A4A00DB3588 /* Assets.xcassets */,
+				FDB769901CBB7A4A00DB3588 /* LaunchScreen.storyboard */,
+				FDB769931CBB7A4A00DB3588 /* Info.plist */,
+			);
+			path = OfficeBuddy;
+			sourceTree = "<group>";
+		};
+		FDB769991CBB7A8C00DB3588 /* CenterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7699D1CBB885F00DB3588 /* MenuButton.swift */,
+				FDB769A31CBB8F8900DB3588 /* CenterViewController.swift */,
+			);
+			name = CenterViewController;
+			sourceTree = "<group>";
+		};
+		FDB7699A1CBB7A9C00DB3588 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7699F1CBB8BEC00DB3588 /* MenuItem.swift */,
+				FDB769A11CBB8E8200DB3588 /* SideMenuViewController.swift */,
+			);
+			name = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB769831CBB7A4A00DB3588 /* OfficeBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB769961CBB7A4A00DB3588 /* Build configuration list for PBXNativeTarget "OfficeBuddy" */;
+			buildPhases = (
+				FDB769801CBB7A4A00DB3588 /* Sources */,
+				FDB769811CBB7A4A00DB3588 /* Frameworks */,
+				FDB769821CBB7A4A00DB3588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeBuddy;
+			productName = OfficeBuddy;
+			productReference = FDB769841CBB7A4A00DB3588 /* OfficeBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB7697C1CBB7A4A00DB3588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rongkecloud;
+				TargetAttributes = {
+					FDB769831CBB7A4A00DB3588 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FDB7697F1CBB7A4A00DB3588 /* Build configuration list for PBXProject "OfficeBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB7697B1CBB7A4A00DB3588;
+			productRefGroup = FDB769851CBB7A4A00DB3588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB769831CBB7A4A00DB3588 /* OfficeBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB769821CBB7A4A00DB3588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB769921CBB7A4A00DB3588 /* LaunchScreen.storyboard in Resources */,
+				FDB7698F1CBB7A4A00DB3588 /* Assets.xcassets in Resources */,
+				FDB7698D1CBB7A4A00DB3588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB769801CBB7A4A00DB3588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7699C1CBB7ACD00DB3588 /* ContainerViewController.swift in Sources */,
+				FDB769A01CBB8BEC00DB3588 /* MenuItem.swift in Sources */,
+				FDB769881CBB7A4A00DB3588 /* AppDelegate.swift in Sources */,
+				FDB769A41CBB8F8900DB3588 /* CenterViewController.swift in Sources */,
+				FDB769A21CBB8E8200DB3588 /* SideMenuViewController.swift in Sources */,
+				FDB7699E1CBB885F00DB3588 /* MenuButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB7698B1CBB7A4A00DB3588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB7698C1CBB7A4A00DB3588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB769901CBB7A4A00DB3588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB769911CBB7A4A00DB3588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB769941CBB7A4A00DB3588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB769951CBB7A4A00DB3588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB769971CBB7A4A00DB3588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OfficeBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.OfficeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDB769981CBB7A4A00DB3588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OfficeBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.OfficeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB7697F1CBB7A4A00DB3588 /* Build configuration list for PBXProject "OfficeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB769941CBB7A4A00DB3588 /* Debug */,
+				FDB769951CBB7A4A00DB3588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB769961CBB7A4A00DB3588 /* Build configuration list for PBXNativeTarget "OfficeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB769971CBB7A4A00DB3588 /* Debug */,
+				FDB769981CBB7A4A00DB3588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB7697C1CBB7A4A00DB3588 /* Project object */;
+}
