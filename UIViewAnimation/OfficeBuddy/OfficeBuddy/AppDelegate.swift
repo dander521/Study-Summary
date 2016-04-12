@@ -22,8 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let centerNav = storyboard.instantiateViewControllerWithIdentifier("CenterNav") as! UINavigationController
         let menuVC = storyboard.instantiateViewControllerWithIdentifier("SideMenu") as! SideMenuViewController
+        menuVC.centerViewController = centerNav.viewControllers.first as! CenterViewController
+        
+        let containerVC = ContainerViewController(sideView: menuVC, center: centerNav)
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.rootViewController = containerVC
         self.window!.backgroundColor = UIColor.blackColor()
         self.window!.makeKeyAndVisible()
         

@@ -9,6 +9,7 @@
 import UIKit
 
 class SideMenuViewController: UITableViewController {
+    
     var centerViewController: CenterViewController!
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,7 +47,7 @@ class SideMenuViewController: UITableViewController {
         centerViewController.menuItem = MenuItem.sharedItems[indexPath.row]
         
         let containerVC = parentViewController as! ContainerViewController
-//        containerVC.toggleSideMenu()
+        containerVC.toggleSideMenu()
     }
     
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
