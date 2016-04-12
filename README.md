@@ -55,6 +55,6 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 ### 12.OfficeBuddy
 * 2016-4-11
 * Build simple VC and Models
-
+* Complete side menu animation
 
 
