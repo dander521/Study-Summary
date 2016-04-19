@@ -64,5 +64,5 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 #CustomControl
 
 ### 1.ActivityController
-*2016-4-19
+* 2016-4-19
 * A custom ActivityView 
