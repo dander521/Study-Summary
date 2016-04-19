@@ -61,4 +61,8 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-13
 * A cube Album
 
+#CustomControl
 
+### 1.ActivityController
+*2016-4-19
+* A custom ActivityView 
