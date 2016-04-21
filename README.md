@@ -79,6 +79,10 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-21
 * Nine gridView 
 
+### 3.PreviewImageView
+* 2016-4-21
+* view to show image with scrollview 
+
 #OwnTest
 
 ### 1.DataBase
