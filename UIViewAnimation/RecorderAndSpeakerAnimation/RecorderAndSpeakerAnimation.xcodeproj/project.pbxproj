@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42897491CB3FB9100FC2250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42897481CB3FB9100FC2250 /* AppDelegate.swift */; };
+		D428974B1CB3FB9100FC2250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428974A1CB3FB9100FC2250 /* ViewController.swift */; };
+		D428974E1CB3FB9100FC2250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428974C1CB3FB9100FC2250 /* Main.storyboard */; };
+		D42897501CB3FB9100FC2250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D428974F1CB3FB9100FC2250 /* Assets.xcassets */; };
+		D42897531CB3FB9100FC2250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42897511CB3FB9100FC2250 /* LaunchScreen.storyboard */; };
+		D428975D1CB3FECE00FC2250 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428975C1CB3FECE00FC2250 /* Assistant.swift */; };
+		D428975F1CB3FEF900FC2250 /* MicMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428975E1CB3FEF900FC2250 /* MicMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D42897451CB3FB9100FC2250 /* RecorderAndSpeakerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderAndSpeakerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42897481CB3FB9100FC2250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D428974A1CB3FB9100FC2250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D428974D1CB3FB9100FC2250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D428974F1CB3FB9100FC2250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RecorderAndSpeakerAnimation/Assets.xcassets; sourceTree = "<group>"; };
+		D42897521CB3FB9100FC2250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D42897541CB3FB9100FC2250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = RecorderAndSpeakerAnimation/Info.plist; sourceTree = "<group>"; };
+		D428975C1CB3FECE00FC2250 /* Assistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assistant.swift; sourceTree = "<group>"; };
+		D428975E1CB3FEF900FC2250 /* MicMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42897421CB3FB9100FC2250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D428973C1CB3FB9100FC2250 = {
+			isa = PBXGroup;
+			children = (
+				D428975B1CB3FC7F00FC2250 /* Starter Classes */,
+				D42897471CB3FB9100FC2250 /* RecorderAndSpeakerAnimation */,
+				D42897461CB3FB9100FC2250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42897461CB3FB9100FC2250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42897451CB3FB9100FC2250 /* RecorderAndSpeakerAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42897471CB3FB9100FC2250 /* RecorderAndSpeakerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D42897481CB3FB9100FC2250 /* AppDelegate.swift */,
+				D428974A1CB3FB9100FC2250 /* ViewController.swift */,
+				D428974C1CB3FB9100FC2250 /* Main.storyboard */,
+				D428975A1CB3FC1B00FC2250 /* Support Files */,
+			);
+			path = RecorderAndSpeakerAnimation;
+			sourceTree = "<group>";
+		};
+		D428975A1CB3FC1B00FC2250 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D428974F1CB3FB9100FC2250 /* Assets.xcassets */,
+				D42897511CB3FB9100FC2250 /* LaunchScreen.storyboard */,
+				D42897541CB3FB9100FC2250 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D428975B1CB3FC7F00FC2250 /* Starter Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D428975C1CB3FECE00FC2250 /* Assistant.swift */,
+				D428975E1CB3FEF900FC2250 /* MicMonitor.swift */,
+			);
+			name = "Starter Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42897441CB3FB9100FC2250 /* RecorderAndSpeakerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42897571CB3FB9100FC2250 /* Build configuration list for PBXNativeTarget "RecorderAndSpeakerAnimation" */;
+			buildPhases = (
+				D42897411CB3FB9100FC2250 /* Sources */,
+				D42897421CB3FB9100FC2250 /* Frameworks */,
+				D42897431CB3FB9100FC2250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecorderAndSpeakerAnimation;
+			productName = RecorderAndSpeakerAnimation;
+			productReference = D42897451CB3FB9100FC2250 /* RecorderAndSpeakerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D428973D1CB3FB9100FC2250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RogerChen;
+				TargetAttributes = {
+					D42897441CB3FB9100FC2250 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D42897401CB3FB9100FC2250 /* Build configuration list for PBXProject "RecorderAndSpeakerAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D428973C1CB3FB9100FC2250;
+			productRefGroup = D42897461CB3FB9100FC2250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42897441CB3FB9100FC2250 /* RecorderAndSpeakerAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42897431CB3FB9100FC2250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42897531CB3FB9100FC2250 /* LaunchScreen.storyboard in Resources */,
+				D42897501CB3FB9100FC2250 /* Assets.xcassets in Resources */,
+				D428974E1CB3FB9100FC2250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42897411CB3FB9100FC2250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D428975F1CB3FEF900FC2250 /* MicMonitor.swift in Sources */,
+				D428974B1CB3FB9100FC2250 /* ViewController.swift in Sources */,
+				D428975D1CB3FECE00FC2250 /* Assistant.swift in Sources */,
+				D42897491CB3FB9100FC2250 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D428974C1CB3FB9100FC2250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D428974D1CB3FB9100FC2250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D42897511CB3FB9100FC2250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42897521CB3FB9100FC2250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = RecorderAndSpeakerAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42897551CB3FB9100FC2250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D42897561CB3FB9100FC2250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42897581CB3FB9100FC2250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecorderAndSpeakerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.RecorderAndSpeakerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42897591CB3FB9100FC2250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecorderAndSpeakerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RogerChen.RecorderAndSpeakerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42897401CB3FB9100FC2250 /* Build configuration list for PBXProject "RecorderAndSpeakerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42897551CB3FB9100FC2250 /* Debug */,
+				D42897561CB3FB9100FC2250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42897571CB3FB9100FC2250 /* Build configuration list for PBXNativeTarget "RecorderAndSpeakerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42897581CB3FB9100FC2250 /* Debug */,
+				D42897591CB3FB9100FC2250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D428973D1CB3FB9100FC2250 /* Project object */;
+}

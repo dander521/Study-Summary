@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RecorderAndSpeakerAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vS-qR-pKw"/>
+                        <viewControllerLayoutGuide type="bottom" id="qUn-S8-fvP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXr-og-PER">
+                                <rect key="frame" x="130" y="467" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="qfc-ch-spP"/>
+                                    <constraint firstAttribute="height" constant="60" id="x3f-Cj-ELS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionEndMonitoring:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="0ab-Yb-rfM"/>
+                                    <action selector="actionEndMonitoring:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Et-VQ-pkW"/>
+                                    <action selector="actionStartMonitoring:" destination="BYZ-38-t0r" eventType="touchDown" id="x4x-r2-xfl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch to speak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="298" translatesAutoresizingMaskIntoConstraints="NO" id="6D0-ie-Our">
+                                <rect key="frame" x="11" y="354" width="298" height="105"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="aw7-NQ-1Xe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sXr-og-PER" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0kA-Vv-51U"/>
+                            <constraint firstItem="6D0-ie-Our" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="XVS-OF-y9F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6D0-ie-Our" secondAttribute="trailing" constant="-5" id="dTX-LW-JxD"/>
+                            <constraint firstItem="qUn-S8-fvP" firstAttribute="top" secondItem="sXr-og-PER" secondAttribute="bottom" constant="41" id="gK6-2N-OMc"/>
+                            <constraint firstItem="6D0-ie-Our" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tj7-DR-pb4"/>
+                            <constraint firstItem="sXr-og-PER" firstAttribute="top" secondItem="6D0-ie-Our" secondAttribute="bottom" constant="8" id="yAD-o4-XpJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="recordButton" destination="sXr-og-PER" id="Z6y-UB-I0Q"/>
+                        <outlet property="speakLabel" destination="6D0-ie-Our" id="5Ni-bc-Krl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="302"/>
+        </scene>
+    </scenes>
+</document>
