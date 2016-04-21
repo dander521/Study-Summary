@@ -89,6 +89,6 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-21
 * A simple test with fmdb and coredata
  
-### 2.runtime
+### 2.Runtime
 * 2016-4-21
 * A test to understand runtime principle
