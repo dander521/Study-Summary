@@ -65,6 +65,10 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-21
 * Snow EmmiterEffect
 
+### 15.PengiunsFun
+* 2016-4-21
+* UIView with multi images animation
+
 #CustomControl
 
 ### 1.ActivityController
