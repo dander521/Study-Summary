@@ -61,8 +61,30 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-13
 * A cube Album
 
+### 14.EmmiterEffect
+* 2016-4-21
+* Snow EmmiterEffect
+
 #CustomControl
 
 ### 1.ActivityController
 * 2016-4-19
 * A custom ActivityView 
+
+### 2.TreeTableTableView
+* 2016-4-21
+* A custom TreeTable 
+
+### 3.GridView
+* 2016-4-21
+* Nine gridView 
+
+#OwnTest
+
+### 1.DataBase
+* 2016-4-21
+* A simple test with fmdb and coredata
+ 
+### 1.runtime
+* 2016-4-21
+* A test to understand runtime principle
