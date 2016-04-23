@@ -36,6 +36,7 @@ class PopAnimator: NSObject, UIViewControllerAnimatedTransitioning
     // This method can only  be a nop if the transition is interactive and not a percentDriven interactive transition.
     func animateTransition(transitionContext: UIViewControllerContextTransitioning)
     {
+        
         let containerView = transitionContext.containerView()!
         let toView = transitionContext.viewForKey(UITransitionContextToViewKey)!
         
@@ -44,8 +45,13 @@ class PopAnimator: NSObject, UIViewControllerAnimatedTransitioning
         let initialFrame = presenting ? originFrame : herbView.frame
         let finalFrame = presenting ? herbView.frame : originFrame
         
-        let xScaleFactor = presenting ? initialFrame.width / finalFrame.width : finalFrame.width / initialFrame.width
-        let yScaleFactor = presenting ? initialFrame.height / finalFrame.height : finalFrame.height / initialFrame.height
+        let xScaleFactor = presenting ?
+            initialFrame.width / finalFrame.width :
+            finalFrame.width / initialFrame.width
+        
+        let yScaleFactor = presenting ?
+            initialFrame.height / finalFrame.height :
+            finalFrame.height / initialFrame.height
         
         let scaleTransform = CGAffineTransformMakeScale(xScaleFactor, yScaleFactor)
         
