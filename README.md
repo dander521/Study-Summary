@@ -73,6 +73,12 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * 2016-4-23
 * UIViewController animation
 
+### 17.ViewControllerAnimation EasyAnimation Pop
+* 2016-4-29
+* ViewControllerAnimation NavigationAnimation InterActiveAnimation 
+* EasyAnimation A simple package of animation
+* Pop facebook animation thirty party
+
 #CustomControl
 
 ### 1.ActivityController
