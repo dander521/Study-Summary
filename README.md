@@ -79,6 +79,20 @@ Learning and studying iOS about 3 years, but never summarize what I learn, so it
 * EasyAnimation A simple package of animation
 * Pop facebook animation thirty party
 
+#Helper
+
+### 1.ASIHttpRequest
+* 2016-4-29
+* Http 
+
+### 2.SQLitePersistentObjects
+* 2016-4-29
+* SQLite 
+
+### 3.QBPhotoAlbum
+* 2016-4-29
+* PhotoAlbum
+
 #CustomControl
 
 ### 1.ActivityController
