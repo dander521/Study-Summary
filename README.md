@@ -42,6 +42,7 @@ Summarize what I learn, just do it.
 ######2.Runtime
 ######3.Swift <-> OC
 
-#CoreText TextKit
+#RichText
 
-// It will be completed in May.
+######1.CoreTextDemo
+######2.TextDemo
