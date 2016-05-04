@@ -45,4 +45,4 @@ Summarize what I learn, just do it.
 #RichText
 
 ######1.CoreTextDemo
-######2.TextDemo
+######2.TextKitDemo
