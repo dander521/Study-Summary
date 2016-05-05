@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SegmentedControl">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jyt-et-DsY">
+                    <rect key="frame" x="30" y="0.0" width="100" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="bFs-bD-DdI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <connections>
+                        <action selector="touchLeftButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="Frw-bD-0nk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sa-WK-Hbn">
+                    <rect key="frame" x="190" y="0.0" width="100" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="j3v-Im-Iaa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <connections>
+                        <action selector="touchRightButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="3SZ-IX-aMp"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdI-Og-pec">
+                    <rect key="frame" x="30" y="34" width="100" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="DDx-sQ-B1e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7sa-WK-Hbn" firstAttribute="leading" secondItem="Jyt-et-DsY" secondAttribute="trailing" constant="60" id="5L9-EA-QMC"/>
+                <constraint firstItem="bdI-Og-pec" firstAttribute="centerX" secondItem="Jyt-et-DsY" secondAttribute="centerX" id="7t3-nz-yiK"/>
+                <constraint firstItem="bdI-Og-pec" firstAttribute="top" secondItem="Jyt-et-DsY" secondAttribute="bottom" constant="-4" id="92P-FB-AHp"/>
+                <constraint firstItem="Jyt-et-DsY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Dn8-pm-ui8"/>
+                <constraint firstItem="bdI-Og-pec" firstAttribute="width" secondItem="Jyt-et-DsY" secondAttribute="width" id="Md9-zI-jiC"/>
+                <constraint firstAttribute="trailing" secondItem="7sa-WK-Hbn" secondAttribute="trailing" constant="30" id="Mur-bB-fms"/>
+                <constraint firstItem="7sa-WK-Hbn" firstAttribute="width" secondItem="Jyt-et-DsY" secondAttribute="width" id="a6L-BD-b3V"/>
+                <constraint firstItem="7sa-WK-Hbn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bDO-eN-0Nn"/>
+                <constraint firstItem="Jyt-et-DsY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="gPe-Ya-vaE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLabel" destination="bdI-Og-pec" id="Us7-v2-vej"/>
+                <outlet property="bottomLabelCenterConstraint" destination="7t3-nz-yiK" id="uLu-6l-WCh"/>
+                <outlet property="leftButton" destination="Jyt-et-DsY" id="p7f-OW-8aQ"/>
+                <outlet property="rightButton" destination="7sa-WK-Hbn" id="nuf-3u-dzB"/>
+            </connections>
+            <point key="canvasLocation" x="358" y="329"/>
+        </view>
+    </objects>
+</document>
