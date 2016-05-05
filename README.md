@@ -35,6 +35,7 @@ Summarize what I learn, just do it.
 ######2.TreeTableTableView
 ######3.GridView
 ######4.PreviewImageView
+######5.SegmentedControl
 
 #OwnTest
 
