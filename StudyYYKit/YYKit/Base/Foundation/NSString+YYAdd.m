@@ -214,7 +214,7 @@ YYSYNTH_DUMMY_CLASS(NSString_YYAdd)
                                       attributes:attr context:nil];
         result = rect.size;
     } else {
-#pragma clang diagnostic push
+#pragma clang diagnostic push // http://blog.csdn.net/mamong/article/details/24542107 去除警告
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
         result = [self sizeWithFont:font constrainedToSize:size lineBreakMode:lineBreakMode];
 #pragma clang diagnostic pop

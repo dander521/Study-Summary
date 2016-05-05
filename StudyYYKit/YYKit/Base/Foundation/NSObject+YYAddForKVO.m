@@ -16,9 +16,6 @@
 
 YYSYNTH_DUMMY_CLASS(NSObject_YYAddForKVO)
 
-
-
-
 static const int block_key;
 
 @interface _YYNSObjectKVOBlockTarget : NSObject

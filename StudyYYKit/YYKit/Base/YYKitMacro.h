@@ -27,11 +27,11 @@
 
 YY_EXTERN_C_BEGIN
 
-#ifndef YY_CLAMP // return the clamped value
+#ifndef YY_CLAMP // return the clamped value 取三个数的中间值
 #define YY_CLAMP(_x_, _low_, _high_)  (((_x_) > (_high_)) ? (_high_) : (((_x_) < (_low_)) ? (_low_) : (_x_)))
 #endif
 
-#ifndef YY_SWAP // swap two value
+#ifndef YY_SWAP // swap two value 交换两个数 位置
 #define YY_SWAP(_a_, _b_)  do { __typeof__(_a_) _tmp_ = (_a_); (_a_) = (_b_); (_b_) = _tmp_; } while (0)
 #endif
 
@@ -50,6 +50,9 @@ YY_EXTERN_C_BEGIN
  Add this macro before each category implementation, so we don't have to use
  -all_load or -force_load to load object files from static libraries that only
  contain categories and no classes.
+ 
+ 避免静态库需要 在buildSetting中添加 -all_load or -force_load
+ 
  More info: http://developer.apple.com/library/mac/#qa/qa2006/qa1490.html .
  *******************************************************************************
  Example:
@@ -65,6 +68,8 @@ YY_EXTERN_C_BEGIN
 /**
  Synthsize a dynamic object property in @implementation scope.
  It allows us to add custom properties to existing classes in categories.
+ 
+ 对已有类 动态添加对象类型属性
  
  @param association  ASSIGN / RETAIN / COPY / RETAIN_NONATOMIC / COPY_NONATOMIC
  @warning #import <objc/runtime.h>
@@ -95,6 +100,8 @@ YY_EXTERN_C_BEGIN
 /**
  Synthsize a dynamic c type property in @implementation scope.
  It allows us to add custom properties to existing classes in categories.
+ 
+ 对已有类 动态添加c类型属性
  
  @warning #import <objc/runtime.h>
  *******************************************************************************
@@ -199,7 +206,7 @@ static inline CFTypeRef YYCFAutorelease(CFTypeRef CF_RELEASES_ARGUMENT arg) {
 }
 
 /**
- Profile time cost.
+ Profile time cost. 耗时测试
  @param ^block     code to benchmark
  @param ^complete  code time cost (millisecond)
  
@@ -233,7 +240,7 @@ static inline void YYBenchmark(void (^block)(void), void (^complete)(double ms))
 }
 
 /**
- Get compile timestamp.
+ Get compile timestamp. 获得一个时间对象
  @return A new date object set to the compile date and time.
  */
 static inline NSDate *YYCompileTime() {
@@ -246,21 +253,21 @@ static inline NSDate *YYCompileTime() {
 }
 
 /**
- Returns a dispatch_time delay from now.
+ Returns a dispatch_time delay from now. 延迟操作
  */
 static inline dispatch_time_t dispatch_time_delay(NSTimeInterval second) {
     return dispatch_time(DISPATCH_TIME_NOW, (int64_t)(second * NSEC_PER_SEC));
 }
 
 /**
- Returns a dispatch_wall_time delay from now.
+ Returns a dispatch_wall_time delay from now. 秒数计时操作
  */
 static inline dispatch_time_t dispatch_walltime_delay(NSTimeInterval second) {
     return dispatch_walltime(DISPATCH_TIME_NOW, (int64_t)(second * NSEC_PER_SEC));
 }
 
 /**
- Returns a dispatch_wall_time from NSDate.
+ Returns a dispatch_wall_time from NSDate. 日期计时操作
  */
 static inline dispatch_time_t dispatch_walltime_date(NSDate *date) {
     NSTimeInterval interval;
@@ -277,14 +284,14 @@ static inline dispatch_time_t dispatch_walltime_date(NSDate *date) {
 }
 
 /**
- Whether in main queue/thread.
+ Whether in main queue/thread. 是否在主线程
  */
 static inline bool dispatch_is_main_queue() {
     return pthread_main_np() != 0;
 }
 
 /**
- Submits a block for asynchronous execution on a main queue and returns immediately.
+ Submits a block for asynchronous execution on a main queue and returns immediately. 异步操作
  */
 static inline void dispatch_async_on_main_queue(void (^block)()) {
     if (pthread_main_np()) {
@@ -295,7 +302,7 @@ static inline void dispatch_async_on_main_queue(void (^block)()) {
 }
 
 /**
- Submits a block for execution on a main queue and waits until the block completes.
+ Submits a block for execution on a main queue and waits until the block completes. 同步操作
  */
 static inline void dispatch_sync_on_main_queue(void (^block)()) {
     if (pthread_main_np()) {
@@ -306,7 +313,8 @@ static inline void dispatch_sync_on_main_queue(void (^block)()) {
 }
 
 /**
- Initialize a pthread mutex.
+ Initialize a pthread mutex. 初始化一个pthread互斥锁
+ http://blog.csdn.net/zmxiangde_88/article/details/7998458
  */
 static inline void pthread_mutex_init_recursive(pthread_mutex_t *mutex, bool recursive) {
 #define YYMUTEX_ASSERT_ON_ERROR(x_) do { \

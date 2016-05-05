@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @name Hash
 ///=============================================================================
 
+// http://baike.baidu.com/link?url=FO0dyRO0OL-bnfmrachndYCR39NYkgGGJe64gFWB5yybtoS6I5TB3tqIJDY21PR7SuB7bm35KLi4KboN2JeUIK
+
 /**
  Returns a lowercase NSString for md2 hash.
  */
@@ -65,6 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Returns a lowercase NSString for hmac using algorithm md5 with key.
+ http://baike.baidu.com/link?url=MLc8_hsmmkyLqciq35qThCS9Zd_5CQqRHpyEjIosi2sDAqf6eBwM7fPszfV0-16FMqyJzWdkfB9vVLNcFsPGM_
  @param key The hmac key.
  */
 - (nullable NSString *)hmacMD5StringWithKey:(NSString *)key;
