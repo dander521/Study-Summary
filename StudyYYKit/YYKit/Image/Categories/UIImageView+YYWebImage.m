@@ -99,7 +99,8 @@ static int _YYWebImageHighlightedSetterKey;
                progress:(YYWebImageProgressBlock)progress
               transform:(YYWebImageTransformBlock)transform
              completion:(YYWebImageCompletionBlock)completion {
-    if ([imageURL isKindOfClass:[NSString class]]) imageURL = [NSURL URLWithString:(id)imageURL];
+    if ([imageURL isKindOfClass:[NSString class]])
+        imageURL = [NSURL URLWithString:(id)imageURL];
     manager = manager ? manager : [YYWebImageManager sharedManager];
     
     _YYWebImageSetter *setter = objc_getAssociatedObject(self, &_YYWebImageSetterKey);
