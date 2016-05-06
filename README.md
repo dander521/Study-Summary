@@ -44,12 +44,12 @@ Summarize what I learn, just do it.
 ######2.Runtime
 ######3.Swift <-> OC
 
-#RichText
+#Library
 
 ######1.DymicFramework
 ######2.StaticLibrary
 
-#Library
+#RichText
 
 ######1.CoreTextDemo
 ######2.TextKitDemo
