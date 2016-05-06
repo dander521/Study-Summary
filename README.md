@@ -46,6 +46,11 @@ Summarize what I learn, just do it.
 
 #RichText
 
+######1.DymicFramework
+######2.StaticLibrary
+
+#Library
+
 ######1.CoreTextDemo
 ######2.TextKitDemo
 

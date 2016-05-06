@@ -1,0 +1,6 @@
+framework module DymicFramework {
+  umbrella header "DymicFramework.h"
+
+  export *
+  module * { export * }
+}
