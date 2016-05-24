@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD6B1FF1CF44047003CA636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B1FE1CF44047003CA636 /* AppDelegate.swift */; };
+		FDD6B2011CF44047003CA636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B2001CF44047003CA636 /* ViewController.swift */; };
+		FDD6B2041CF44047003CA636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B2021CF44047003CA636 /* Main.storyboard */; };
+		FDD6B2061CF44047003CA636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B2051CF44047003CA636 /* Assets.xcassets */; };
+		FDD6B2091CF44047003CA636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B2071CF44047003CA636 /* LaunchScreen.storyboard */; };
+		FDD6B2141CF44047003CA636 /* CoreMotionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B2131CF44047003CA636 /* CoreMotionTestTests.swift */; };
+		FDD6B21F1CF44047003CA636 /* CoreMotionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B21E1CF44047003CA636 /* CoreMotionTestUITests.swift */; };
+		FDD6B22D1CF44055003CA636 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B22C1CF44055003CA636 /* CoreMotion.framework */; };
+		FDD6B22E1CF44269003CA636 /* CoreMotion.framework in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B22C1CF44055003CA636 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD6B2101CF44047003CA636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD6B1F31CF44047003CA636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD6B1FA1CF44047003CA636;
+			remoteInfo = CoreMotionTest;
+		};
+		FDD6B21B1CF44047003CA636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD6B1F31CF44047003CA636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD6B1FA1CF44047003CA636;
+			remoteInfo = CoreMotionTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD6B1FB1CF44047003CA636 /* CoreMotionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B1FE1CF44047003CA636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDD6B2001CF44047003CA636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDD6B2031CF44047003CA636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD6B2051CF44047003CA636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD6B2081CF44047003CA636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD6B20A1CF44047003CA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD6B20F1CF44047003CA636 /* CoreMotionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B2131CF44047003CA636 /* CoreMotionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionTestTests.swift; sourceTree = "<group>"; };
+		FDD6B2151CF44047003CA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD6B21A1CF44047003CA636 /* CoreMotionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B21E1CF44047003CA636 /* CoreMotionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionTestUITests.swift; sourceTree = "<group>"; };
+		FDD6B2201CF44047003CA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD6B22C1CF44055003CA636 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD6B1F81CF44047003CA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B22D1CF44055003CA636 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B20C1CF44047003CA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B2171CF44047003CA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD6B1F21CF44047003CA636 = {
+			isa = PBXGroup;
+			children = (
+				FDD6B22C1CF44055003CA636 /* CoreMotion.framework */,
+				FDD6B1FD1CF44047003CA636 /* CoreMotionTest */,
+				FDD6B2121CF44047003CA636 /* CoreMotionTestTests */,
+				FDD6B21D1CF44047003CA636 /* CoreMotionTestUITests */,
+				FDD6B1FC1CF44047003CA636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD6B1FC1CF44047003CA636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B1FB1CF44047003CA636 /* CoreMotionTest.app */,
+				FDD6B20F1CF44047003CA636 /* CoreMotionTestTests.xctest */,
+				FDD6B21A1CF44047003CA636 /* CoreMotionTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD6B1FD1CF44047003CA636 /* CoreMotionTest */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B1FE1CF44047003CA636 /* AppDelegate.swift */,
+				FDD6B2001CF44047003CA636 /* ViewController.swift */,
+				FDD6B2021CF44047003CA636 /* Main.storyboard */,
+				FDD6B2051CF44047003CA636 /* Assets.xcassets */,
+				FDD6B2071CF44047003CA636 /* LaunchScreen.storyboard */,
+				FDD6B20A1CF44047003CA636 /* Info.plist */,
+			);
+			path = CoreMotionTest;
+			sourceTree = "<group>";
+		};
+		FDD6B2121CF44047003CA636 /* CoreMotionTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B2131CF44047003CA636 /* CoreMotionTestTests.swift */,
+				FDD6B2151CF44047003CA636 /* Info.plist */,
+			);
+			path = CoreMotionTestTests;
+			sourceTree = "<group>";
+		};
+		FDD6B21D1CF44047003CA636 /* CoreMotionTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B21E1CF44047003CA636 /* CoreMotionTestUITests.swift */,
+				FDD6B2201CF44047003CA636 /* Info.plist */,
+			);
+			path = CoreMotionTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD6B1FA1CF44047003CA636 /* CoreMotionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6B2231CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTest" */;
+			buildPhases = (
+				FDD6B1F71CF44047003CA636 /* Sources */,
+				FDD6B1F81CF44047003CA636 /* Frameworks */,
+				FDD6B1F91CF44047003CA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotionTest;
+			productName = CoreMotionTest;
+			productReference = FDD6B1FB1CF44047003CA636 /* CoreMotionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD6B20E1CF44047003CA636 /* CoreMotionTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6B2261CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTestTests" */;
+			buildPhases = (
+				FDD6B20B1CF44047003CA636 /* Sources */,
+				FDD6B20C1CF44047003CA636 /* Frameworks */,
+				FDD6B20D1CF44047003CA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD6B2111CF44047003CA636 /* PBXTargetDependency */,
+			);
+			name = CoreMotionTestTests;
+			productName = CoreMotionTestTests;
+			productReference = FDD6B20F1CF44047003CA636 /* CoreMotionTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDD6B2191CF44047003CA636 /* CoreMotionTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6B2291CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTestUITests" */;
+			buildPhases = (
+				FDD6B2161CF44047003CA636 /* Sources */,
+				FDD6B2171CF44047003CA636 /* Frameworks */,
+				FDD6B2181CF44047003CA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD6B21C1CF44047003CA636 /* PBXTargetDependency */,
+			);
+			name = CoreMotionTestUITests;
+			productName = CoreMotionTestUITests;
+			productReference = FDD6B21A1CF44047003CA636 /* CoreMotionTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD6B1F31CF44047003CA636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rongkecloud;
+				TargetAttributes = {
+					FDD6B1FA1CF44047003CA636 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FDD6B20E1CF44047003CA636 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FDD6B1FA1CF44047003CA636;
+					};
+					FDD6B2191CF44047003CA636 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FDD6B1FA1CF44047003CA636;
+					};
+				};
+			};
+			buildConfigurationList = FDD6B1F61CF44047003CA636 /* Build configuration list for PBXProject "CoreMotionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD6B1F21CF44047003CA636;
+			productRefGroup = FDD6B1FC1CF44047003CA636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD6B1FA1CF44047003CA636 /* CoreMotionTest */,
+				FDD6B20E1CF44047003CA636 /* CoreMotionTestTests */,
+				FDD6B2191CF44047003CA636 /* CoreMotionTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD6B1F91CF44047003CA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B22E1CF44269003CA636 /* CoreMotion.framework in Resources */,
+				FDD6B2091CF44047003CA636 /* LaunchScreen.storyboard in Resources */,
+				FDD6B2061CF44047003CA636 /* Assets.xcassets in Resources */,
+				FDD6B2041CF44047003CA636 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B20D1CF44047003CA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B2181CF44047003CA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD6B1F71CF44047003CA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B2011CF44047003CA636 /* ViewController.swift in Sources */,
+				FDD6B1FF1CF44047003CA636 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B20B1CF44047003CA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B2141CF44047003CA636 /* CoreMotionTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B2161CF44047003CA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B21F1CF44047003CA636 /* CoreMotionTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD6B2111CF44047003CA636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD6B1FA1CF44047003CA636 /* CoreMotionTest */;
+			targetProxy = FDD6B2101CF44047003CA636 /* PBXContainerItemProxy */;
+		};
+		FDD6B21C1CF44047003CA636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD6B1FA1CF44047003CA636 /* CoreMotionTest */;
+			targetProxy = FDD6B21B1CF44047003CA636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD6B2021CF44047003CA636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD6B2031CF44047003CA636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD6B2071CF44047003CA636 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD6B2081CF44047003CA636 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD6B2211CF44047003CA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD6B2221CF44047003CA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD6B2241CF44047003CA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMotionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDD6B2251CF44047003CA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMotionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDD6B2271CF44047003CA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreMotionTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionTest.app/CoreMotionTest";
+			};
+			name = Debug;
+		};
+		FDD6B2281CF44047003CA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreMotionTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionTest.app/CoreMotionTest";
+			};
+			name = Release;
+		};
+		FDD6B22A1CF44047003CA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreMotionTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreMotionTest;
+			};
+			name = Debug;
+		};
+		FDD6B22B1CF44047003CA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreMotionTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongkecloud.CoreMotionTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreMotionTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD6B1F61CF44047003CA636 /* Build configuration list for PBXProject "CoreMotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B2211CF44047003CA636 /* Debug */,
+				FDD6B2221CF44047003CA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD6B2231CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B2241CF44047003CA636 /* Debug */,
+				FDD6B2251CF44047003CA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDD6B2261CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B2271CF44047003CA636 /* Debug */,
+				FDD6B2281CF44047003CA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDD6B2291CF44047003CA636 /* Build configuration list for PBXNativeTarget "CoreMotionTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B22A1CF44047003CA636 /* Debug */,
+				FDD6B22B1CF44047003CA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD6B1F31CF44047003CA636 /* Project object */;
+}
